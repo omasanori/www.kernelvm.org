@@ -1,0 +1,15 @@
+{
+  "name": "www.kernelvm.org",
+  "version": "2023.03.29",
+  "description": "Portal website of the Kernel/VM community",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
