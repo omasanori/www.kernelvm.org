@@ -1,6 +1,6 @@
 # Kernel/VM探検隊
 
-![Kernel/VM探検隊](./kernelvm.png)
+![Kernel/VM探検隊](./assets/kernelvm.png)
 
 （サイトのリニューアル中です）
 
