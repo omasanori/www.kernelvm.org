@@ -1,1 +1,59 @@
-
+[
+    {
+        "date": "2009-08-10",
+        "title": "第一回 カーネル／VM探検隊",
+        "venue": "株式会社ライブドア ネットワーク事業部 セミナールーム",
+        "talks": [
+            {
+                "title": "UNIXの昔話とOSの将来",
+                "speaker": "田胡教授",
+                "videos": [
+                    "https://www.youtube.com/watch?v=gbTydW3HdF4",
+                    "https://www.youtube.com/watch?v=XH5T4clDnbI"
+                ],
+                "materials": []
+            },
+            {
+                "title": "Linux KVMのコードを追ってみよう",
+                "speaker": "@oza_x86",
+                "videos": [
+                    "https://www.youtube.com/watch?v=b_bn_WIduF8",
+                    "https://www.youtube.com/watch?v=6sUeaszYgmA",
+                    "https://www.youtube.com/watch?v=l-HbsX4rWxM",
+                    "https://www.youtube.com/watch?v=vZKP-sTaAo8",
+                    "https://www.youtube.com/watch?v=xlg4J9eG2DU"
+                ],
+                "materials": [
+                    "https://www.slideshare.net/ozax86/linux-kvm"
+                ]
+            },
+            {
+                "title": "今日からはじめるPlan 9 from Bell Labs",
+                "speaker": "@oraccha",
+                "videos": [
+                    "https://www.youtube.com/watch?v=0L7HRxjqt6c",
+                    "https://www.youtube.com/watch?v=WK_JsuuVz0I",
+                    "https://www.youtube.com/watch?v=9mT1KWu_tRE",
+                    "https://www.youtube.com/watch?v=TQvrSE2xEN8",
+                    "https://www.youtube.com/watch?v=yJuP1bxu-Rc"
+                ],
+                "materials": [
+                    "https://www.slideshare.net/oraccha/plan-9-from-bell-labs",
+                    "https://oraccha.hatenadiary.org/entry/20090811/1249951968"
+                ]
+            },
+            {
+                "title": "BSDカーネルのSMP化 on MIPS",
+                "speaker": "@syuu1228",
+                "videos": [
+                    "https://www.youtube.com/watch?v=1kJx0n4l-rg",
+                    "https://www.youtube.com/watch?v=ZffRE_-Cw3g",
+                    "https://www.youtube.com/watch?v=edxKHHMPBUw",
+                    "https://www.youtube.com/watch?v=3OZ7btShu5Q",
+                    "https://www.youtube.com/watch?v=C7uOSKz2nRY"
+                ],
+                "materials": []
+            }
+        ]
+    }
+]
