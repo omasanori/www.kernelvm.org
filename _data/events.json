@@ -1,5 +1,21 @@
 [
   {
+    "date": "2010-03-09",
+    "title": "Plan 9勉強会",
+    "venue": "産総研秋葉原 秋葉原ダイビル11階",
+    "talks": [
+      {
+        "speaker": "@80nashi",
+        "title": "分散環境のインストールデモ、認証とセキュリティ周りの話",
+        "videos": [
+          "https://www.youtube.com/watch?v=CsKRVek_uXQ"
+        ],
+        "materials": [],
+        "description": "インストール済み直後の 3 台の Plan 9 端末を、(1) スタンドアロン認証サーバ (2) スタンドアロン fossil ファイルサーバ (3) ディスクレス CPU サーバ の分散構成でセットアップし、Windows の drawterm からログインします。\nその折々で、Plan 9 の認証 (特に NVRAM, authsrv, keyfs, caphash) について説明します。\n時間があったら、9grid の話をしていた時に少し手をつけた、factotum のmulti domain authentication 手法の一提案について説明します。\nインストール直後のスタンドアローン環境を2台と、ブランクのFDが2枚ささったplan9.isoから起動できるVMを用意しておくと一緒に楽しめますw VM同士でIP通信できることを確認しておいてください。\n当日のデモではqemuを使います。\n（VMWare Fusion環境での補足）setting -> other devicesからFDDを追加できます。\nブランクFDイメージは「dd if=/dev/zero of=fd0.img bs=1024 count=1440」で作成できます。\n参加者：\n@80nashi、@n_kane、@koie、@naobsd、Vester、@moroo？、@syuu1228、@murachue、ebara、@wats、@akedon、@nakj？、@7shi、よしい、@oraccha"
+      }
+    ]
+  },
+  {
     "date": "2010-02-23",
     "title": "第三回 カーネル／VM探検隊",
     "venue": "株式会社インターネットイニシアティブ(IIJ) 大会議室2",
