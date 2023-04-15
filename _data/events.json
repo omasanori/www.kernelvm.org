@@ -1,119 +1,208 @@
 [
-    {
-        "date": "2009-11-05",
-        "title": "第二回 カーネル／VM探検隊",
-        "venue": "株式会社ライブドア ネットワーク事業部 セミナールーム",
-        "talks": [
-            {
-                "speaker": "@syuu1228",
-                "title": "SMP Impl. on BSD/MIPS - TLB Consistency -",
-                "videos": [
-                    "https://www.youtube.com/watch?v=4VFQGkps1MY"
-                ],
-                "materials": [
-                    "https://www.slideshare.net/syuu1228/smp-impl-on-bsdmips-tlb-consistency"
-                ]
-            },
-            {
-                "speaker": "@takeoka",
-                "title": "仮想化な、まああてにすな ひどすぎる乱立 - VM実現技術の本質 VMといえば、SystemVMなんだよ! -",
-                "videos": [
-                    "https://www.youtube.com/watch?v=XESpbOta0hk"
-                ],
-                "materials": [
-                    "https://www.takeoka.org/~take/doc/vm-take-091105.pdf"
-                ]
-            },
-            {
-                "speaker": "@oraccha",
-                "title": "あなたの知らないネットワークプログラミングの世界",
-                "videos": [
-                    "https://www.youtube.com/watch?v=hv3A-tbE4lA"
-                ],
-                "materials": [
-                    "https://www.slideshare.net/oraccha/ss-2642874"
-                ]
-            },
-            {
-                "speaker": "@oza_x86",
-                "title": "仮想マシン上におけるメモリの仮想化について for x86",
-                "videos": [
-                    "https://www.youtube.com/watch?v=xnT5m5nR4Wk",
-                    "https://www.youtube.com/watch?v=VZ_Ggp37BKw",
-                    "https://www.youtube.com/watch?v=AlcvyQhVyiM",
-                    "https://www.youtube.com/watch?v=riOlDkSdTQI"
-                ],
-                "materials": [
-                    "https://www.slideshare.net/ozax86/memory-virtualization-2453734"
-                ]
-            },
-            {
-                "speaker": "@masami256",
-                "title": "MinixとSMP 〜Minix SMPを読んでみる〜",
-                "videos": [
-                    "https://www.youtube.com/watch?v=VUcr-LDeyOg"
-                ],
-                "materials": [
-                    "https://www.slideshare.net/masamiichikawa/minix-smp"
-                ]
-            }
+  {
+    "date": "2010-02-23",
+    "title": "第三回 カーネル／VM探検隊",
+    "venue": "株式会社インターネットイニシアティブ(IIJ) 大会議室2",
+    "talks": [
+      {
+        "speaker": "yasuoka",
+        "title": "npppd and pipex",
+        "videos": [
+          "https://www.youtube.com/watch?v=7ebzB96IKWE#t=4m30s"
+        ],
+        "materials": [
+          "https://yasuoka.net/~yasuoka/kernvm3-npppd.pdf"
         ]
-    },
-    {
-        "date": "2009-08-10",
-        "title": "第一回 カーネル／VM探検隊",
-        "venue": "株式会社ライブドア ネットワーク事業部 セミナールーム",
-        "talks": [
-            {
-                "speaker": "田胡教授",
-                "title": "UNIXの昔話とOSの将来",
-                "videos": [
-                    "https://www.youtube.com/watch?v=gbTydW3HdF4",
-                    "https://www.youtube.com/watch?v=XH5T4clDnbI"
-                ],
-                "materials": []
-            },
-            {
-                "speaker": "@oza_x86",
-                "title": "Linux KVMのコードを追ってみよう",
-                "videos": [
-                    "https://www.youtube.com/watch?v=b_bn_WIduF8",
-                    "https://www.youtube.com/watch?v=6sUeaszYgmA",
-                    "https://www.youtube.com/watch?v=l-HbsX4rWxM",
-                    "https://www.youtube.com/watch?v=vZKP-sTaAo8",
-                    "https://www.youtube.com/watch?v=xlg4J9eG2DU"
-                ],
-                "materials": [
-                    "https://www.slideshare.net/ozax86/linux-kvm"
-                ]
-            },
-            {
-                "speaker": "@oraccha",
-                "title": "今日からはじめるPlan 9 from Bell Labs",
-                "videos": [
-                    "https://www.youtube.com/watch?v=0L7HRxjqt6c",
-                    "https://www.youtube.com/watch?v=WK_JsuuVz0I",
-                    "https://www.youtube.com/watch?v=9mT1KWu_tRE",
-                    "https://www.youtube.com/watch?v=TQvrSE2xEN8",
-                    "https://www.youtube.com/watch?v=yJuP1bxu-Rc"
-                ],
-                "materials": [
-                    "https://www.slideshare.net/oraccha/plan-9-from-bell-labs",
-                    "https://oraccha.hatenadiary.org/entry/20090811/1249951968"
-                ]
-            },
-            {
-                "speaker": "@syuu1228",
-                "title": "BSDカーネルのSMP化 on MIPS",
-                "videos": [
-                    "https://www.youtube.com/watch?v=1kJx0n4l-rg",
-                    "https://www.youtube.com/watch?v=ZffRE_-Cw3g",
-                    "https://www.youtube.com/watch?v=edxKHHMPBUw",
-                    "https://www.youtube.com/watch?v=3OZ7btShu5Q",
-                    "https://www.youtube.com/watch?v=C7uOSKz2nRY"
-                ],
-                "materials": []
-            }
+      },
+      {
+        "speaker": "@go_vm",
+        "title": "軽快なPlan9",
+        "videos": [
+          "https://www.youtube.com/watch?v=7ebzB96IKWE#t=46m40s"
+        ],
+        "materials": [
+          "https://www.slideshare.net/govm/plan9-kernelvm"
         ]
-    }
+      },
+      {
+        "speaker": "@ucq",
+        "title": "脆弱性に関する技術的な何か",
+        "videos": [
+          "https://www.youtube.com/watch?v=7ebzB96IKWE#t=1h39m10s"
+        ],
+        "materials": []
+      },
+      {
+        "speaker": "id:rti7743",
+        "title": "sexyhook",
+        "videos": [
+          "https://www.youtube.com/watch?v=7ebzB96IKWE#t=2h41m0s"
+        ],
+        "materials": [
+          "https://prezi.com/xbkuwzimettm/sexyhook/"
+        ]
+      },
+      {
+        "speaker": "@yojiro",
+        "title": "OPENBSD MEETS \"YUREX\"",
+        "videos": [
+          "https://www.youtube.com/watch?v=7ebzB96IKWE#t=3h6m10s"
+        ],
+        "materials": []
+      },
+      {
+        "speaker": "@xylnao",
+        "title": "UNIX/32v on SIMH 接触編",
+        "videos": [
+          "https://www.youtube.com/watch?v=7ebzB96IKWE#t=3h19m00s"
+        ],
+        "materials": [
+          "https://www.slideshare.net/xylnao/unix32v"
+        ]
+      },
+      {
+        "speaker": "@oza_x86",
+        "title": "dynticks について適当にまとめる",
+        "videos": [],
+        "materials": []
+      },
+      {
+        "speaker": "id:isoparametric",
+        "title": "12分くらいで知る LuaVM",
+        "videos": [],
+        "materials": [
+          "https://www.slideshare.net/Isoparametric/12-luavm"
+        ]
+      },
+      {
+        "speaker": "@n_kane",
+        "title": "Sheevaplugってなあに",
+        "videos": [],
+        "materials": []
+      },
+      {
+        "speaker": "g:kurofuku",
+        "title": "C++でOSを作ってみた",
+        "videos": [],
+        "materials": []
+      }
+    ]
+  },
+  {
+    "date": "2009-11-05",
+    "title": "第二回 カーネル／VM探検隊",
+    "venue": "株式会社ライブドア ネットワーク事業部 セミナールーム",
+    "talks": [
+      {
+        "speaker": "@syuu1228",
+        "title": "SMP Impl. on BSD/MIPS - TLB Consistency -",
+        "videos": [
+          "https://www.youtube.com/watch?v=4VFQGkps1MY"
+        ],
+        "materials": [
+          "https://www.slideshare.net/syuu1228/smp-impl-on-bsdmips-tlb-consistency"
+        ]
+      },
+      {
+        "speaker": "@takeoka",
+        "title": "仮想化な、まああてにすな ひどすぎる乱立 - VM実現技術の本質 VMといえば、SystemVMなんだよ! -",
+        "videos": [
+          "https://www.youtube.com/watch?v=XESpbOta0hk"
+        ],
+        "materials": [
+          "https://www.takeoka.org/~take/doc/vm-take-091105.pdf"
+        ]
+      },
+      {
+        "speaker": "@oraccha",
+        "title": "あなたの知らないネットワークプログラミングの世界",
+        "videos": [
+          "https://www.youtube.com/watch?v=hv3A-tbE4lA"
+        ],
+        "materials": [
+          "https://www.slideshare.net/oraccha/ss-2642874"
+        ]
+      },
+      {
+        "speaker": "@oza_x86",
+        "title": "仮想マシン上におけるメモリの仮想化について for x86",
+        "videos": [
+          "https://www.youtube.com/watch?v=xnT5m5nR4Wk",
+          "https://www.youtube.com/watch?v=VZ_Ggp37BKw",
+          "https://www.youtube.com/watch?v=AlcvyQhVyiM",
+          "https://www.youtube.com/watch?v=riOlDkSdTQI"
+        ],
+        "materials": [
+          "https://www.slideshare.net/ozax86/memory-virtualization-2453734"
+        ]
+      },
+      {
+        "speaker": "@masami256",
+        "title": "MinixとSMP 〜Minix SMPを読んでみる〜",
+        "videos": [
+          "https://www.youtube.com/watch?v=VUcr-LDeyOg"
+        ],
+        "materials": [
+          "https://www.slideshare.net/masamiichikawa/minix-smp"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2009-08-10",
+    "title": "第一回 カーネル／VM探検隊",
+    "venue": "株式会社ライブドア ネットワーク事業部 セミナールーム",
+    "talks": [
+      {
+        "speaker": "田胡教授",
+        "title": "UNIXの昔話とOSの将来",
+        "videos": [
+          "https://www.youtube.com/watch?v=gbTydW3HdF4",
+          "https://www.youtube.com/watch?v=XH5T4clDnbI"
+        ],
+        "materials": []
+      },
+      {
+        "speaker": "@oza_x86",
+        "title": "Linux KVMのコードを追ってみよう",
+        "videos": [
+          "https://www.youtube.com/watch?v=b_bn_WIduF8",
+          "https://www.youtube.com/watch?v=6sUeaszYgmA",
+          "https://www.youtube.com/watch?v=l-HbsX4rWxM",
+          "https://www.youtube.com/watch?v=vZKP-sTaAo8",
+          "https://www.youtube.com/watch?v=xlg4J9eG2DU"
+        ],
+        "materials": [
+          "https://www.slideshare.net/ozax86/linux-kvm"
+        ]
+      },
+      {
+        "speaker": "@oraccha",
+        "title": "今日からはじめるPlan 9 from Bell Labs",
+        "videos": [
+          "https://www.youtube.com/watch?v=0L7HRxjqt6c",
+          "https://www.youtube.com/watch?v=WK_JsuuVz0I",
+          "https://www.youtube.com/watch?v=9mT1KWu_tRE",
+          "https://www.youtube.com/watch?v=TQvrSE2xEN8",
+          "https://www.youtube.com/watch?v=yJuP1bxu-Rc"
+        ],
+        "materials": [
+          "https://www.slideshare.net/oraccha/plan-9-from-bell-labs",
+          "https://oraccha.hatenadiary.org/entry/20090811/1249951968"
+        ]
+      },
+      {
+        "speaker": "@syuu1228",
+        "title": "BSDカーネルのSMP化 on MIPS",
+        "videos": [
+          "https://www.youtube.com/watch?v=1kJx0n4l-rg",
+          "https://www.youtube.com/watch?v=ZffRE_-Cw3g",
+          "https://www.youtube.com/watch?v=edxKHHMPBUw",
+          "https://www.youtube.com/watch?v=3OZ7btShu5Q",
+          "https://www.youtube.com/watch?v=C7uOSKz2nRY"
+        ],
+        "materials": []
+      }
+    ]
+  }
 ]
