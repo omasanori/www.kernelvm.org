@@ -1,5 +1,87 @@
 [
   {
+    "date": "2010/08/21",
+    "title": "第一回 x86勉強会",
+    "venue": "神保町三井ビル 17F 株式会社インターネットイニシアティブ(IIJ) 大会議室 （東京都千代田区神田神保町1-105）",
+    "talks": [
+      {
+        "speaker": "d_kami",
+        "title": "Javaで作るx86エミュレータ",
+        "videos": [
+          "https://www.youtube.com/watch?v=1JTU2yIeJps"
+        ],
+        "materials": [
+          "http://x86study.googlegroups.com/web/d-kami_x86study_1.pdf"
+        ],
+        "description": ""
+      },
+      {
+        "speaker": "masami256",
+        "title": "x86とプロセスについて",
+        "videos": [
+          "https://www.youtube.com/watch?v=1JTU2yIeJps"
+        ],
+        "materials": [
+          "http://x86study.googlegroups.com/web/x86.pdf"
+        ],
+        "description": ""
+      },
+      {
+        "speaker": "egggarden",
+        "title": "実行トレーサで学ぶx86再入門",
+        "videos": [
+          "https://www.youtube.com/watch?v=1JTU2yIeJps"
+        ],
+        "materials": [
+          "http://x86study.googlegroups.com/web/%E5%AE%9F%E8%A1%8C%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B5%E3%81%A7%E5%AD%A6%E3%81%B6+x86%E5%86%8D%E5%85%A5%E9%96%80.pdf"
+        ],
+        "description": ""
+      },
+      {
+        "speaker": "Shougo",
+        "title": "今どきのx86開発環境",
+        "videos": [
+          "https://www.youtube.com/watch?v=1JTU2yIeJps"
+        ],
+        "materials": [
+          "http://x86study.googlegroups.com/web/x86+presentation.pdf"
+        ],
+        "description": ""
+      },
+      {
+        "speaker": "syuu1228",
+        "title": "Hardware assited x86 emulation on godson 3",
+        "videos": [
+          "https://www.youtube.com/watch?v=1JTU2yIeJps"
+        ],
+        "materials": [
+          "https://www.slideshare.net/syuu1228/hardware-assited-x86-emulation-on-godson-3-5040660"
+        ],
+        "description": ""
+      },
+      {
+        "speaker": "hdk_2",
+        "title": "8088 のエミュレーションについて",
+        "videos": [
+          "https://www.youtube.com/watch?v=1JTU2yIeJps"
+        ],
+        "materials": [
+          "http://x86study.googlegroups.com/web/hdk_2%3Ax86benkyo-201008.pdf"
+        ],
+        "description": ""
+      },
+      {
+        "speaker": "a4lg",
+        "title": "新しいx86トレーサの作り方 – 最小情報トレースによる1MB/sの実現",
+        "videos": [
+          "https://www.youtube.com/watch?v=1JTU2yIeJps"
+        ],
+        "materials": [],
+        "description": ""
+      }
+    ]
+  },
+  {
     "date": "2010-03-09",
     "title": "Plan 9勉強会",
     "venue": "産総研秋葉原 秋葉原ダイビル11階",
